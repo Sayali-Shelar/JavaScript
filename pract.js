@@ -72,7 +72,8 @@ let res1=no2.every((ele)=>{
 })
 console.log(res1);
 
-// Q14
+
+
 
 
 
