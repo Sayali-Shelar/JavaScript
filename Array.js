@@ -58,7 +58,6 @@ let remove = fruit2.shift();
 console.log(fruits); 
 console.log(remove); 
 
-
 // length - Get Array Length
 let fruit3 = ["Apple", "Banana", "Mango"];
 console.log(fruit3.length); // Output: 3
@@ -189,5 +188,6 @@ let users = [
   ];
   let olderUsers = users.filter(user => user.age > 25);
   console.log(olderUsers);
+
 
 
