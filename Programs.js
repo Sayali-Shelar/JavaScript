@@ -275,6 +275,17 @@ function calculator(a, b, operator) {
 console.log(calculator(5, 3, '+')); 
 console.log(calculator(10, 2, '/')); 
 
+let student1 =[
+{ name : "John" , grade : "A"},
+{ name : "Jane", grade : "c"},
+{ name : "Om", grade : "B"},
+{ name : "sham", grade :"A"}
+];
+console.log(student1);
+let result=student1.filter(( ele)=>{
+     return ele.grade==="A"
+})
+console.log(result);
 
 
  
@@ -284,4 +295,5 @@ function isPalindrome(input) {
     return input.toLowerCase() === reversed.toLowerCase(); 
 }
 console.log(isPalindrome("madam")); 
+
 console.log(isPalindrome("hello")); 
