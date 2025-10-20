@@ -29,7 +29,6 @@ if (age >= 18) {
 }
 
 // Output: "You are eligible to vote."
-
 /* 
     NOTES:
     - The `if` statement checks a condition (age >= 18).
@@ -676,4 +675,5 @@ for (let i = 1; i <= num; i++) {
     factorial *= i;
 }
 console.log("Factorial of " + num + ": " + factorial);
+
 /* Explanation: This loop calculates the factorial of a number by multiplying each number from 1 to the specified num. */
