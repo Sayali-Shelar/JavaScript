@@ -71,17 +71,3 @@ let res1=no2.every((ele)=>{
     return ele > 0
 })
 console.log(res1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
